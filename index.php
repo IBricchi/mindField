@@ -10,7 +10,33 @@
 </head>
 <body>
 
-	
+	<nav>
+		<div>
+			search bar
+		</div>
+		<div>
+			<span>Home</span>
+		</div>
+		<div>
+			<span>1</span>
+		</div>
+		<div>
+			<span>2</span>
+		</div>
+		<div>
+			<span>3</span>
+		</div>
+		<div>
+			<span>4</span>
+		</div>
+		<div>
+			<span>5</span>
+		</div>
+	</nav>
+
+	<div id = 'search'>
+		<span>search bar</span>
+	</div>
 
 </body>
 </html>
