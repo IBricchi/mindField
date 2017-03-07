@@ -1,0 +1,33 @@
+#uploadForm{
+	width: 55vw;
+	margin: 5vh 0 0 10vw;
+	float: left;
+}
+#uploadForm>span{
+	width: 100%;
+	height: 5vh;
+	font-size: 5vh;
+	text-align: center;
+}
+#uploadForm>form>span{
+	float: left;
+	width: 20%;
+	height: 3vh;
+	font-size: 3vh;
+}
+#uploadForm>form>input:not(.formSubmit):not(#fileToUpload){
+	margin: -3vh 0 0 0;
+	width: 80%;
+	float: right;
+}
+#fileToUpload{
+	width: 80%;
+	float: left;
+}
+.formSubmit{
+	float: left;
+}
+#uploadForm>form>textarea{
+	width: 100%;
+	float: left;
+}

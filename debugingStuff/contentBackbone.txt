@@ -1,0 +1,33 @@
+<div class = 'content'>
+	<div class = 'contImg'></div>
+	<a href='<?php '>
+	<span class = 'contTitle'>
+		<b><?php $title->seek(1); echo $title->current();?></b>
+	</span>
+	</a>
+	<span class = 'contSub'>
+		<?php $subject->seek(1); echo $subject->current();?>-
+	</span>
+	<span class = 'contUploder'>
+		<?php $user->seek(1); echo $user->current();?>-
+	</span>
+	<div class = 'contPointCount'>
+		<span><?php $points->seek(1); echo $points->current();?></span>
+		<div class = 'upv'>
+			<form action = 'voting/vote.php' method = 'post'>
+				<input type='hidden' name ='upvote' value='1'>
+				<input type='hidden' name ='downvote' value='0'>
+			</form>
+		</div>
+		<div class = 'downv'>
+			<form action = 'voting/vote.php' method = 'post'>
+				<input type='hidden' name ='upvote' value='0'>
+				<input type='hidden' name ='downvote' value='1'>
+			</form>
+		</div>
+	</div>
+	<br>
+	<span class = 'contDesc'>
+		<?php $desc->seek(1); echo $desc->current();?>
+	</span>
+</div>
